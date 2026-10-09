@@ -1,3 +1,3 @@
 # Globos
 Repositorio para hacer pruebas con git 
-Curso 2026-27
+Laboratorio de Proyectos Curso 2026-27
