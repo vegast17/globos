@@ -1,9 +1,10 @@
+PImage cara; 
+
 class Globo
 { 
   color c;
   float x, y,vx,vy;
-  Globo (float _x, float _y)
-  {
+  Globo (float _x, float _y){
    x=_x;
    y=_y; 
    vx=random(-0.25,0.25);
@@ -18,10 +19,11 @@ class Globo
   }
 
   void dibujate()
-  { 
+  {      
     fill(c);
     strokeWeight(4);
-      ellipse(x,y,200,200);
+      ellipse(x,y,200,200); 
+      image(cara, x,y);
   }
   
 }
