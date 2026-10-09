@@ -23,7 +23,7 @@ class Globo
     fill(c);
     strokeWeight(4);
       ellipse(x,y,200,200); 
-      image(cara, x,y);
+      image(cara, x,y, 100,90);
   }
   
 }
@@ -35,6 +35,7 @@ void setup()
 {
   size(640,480);
   globos = new ArrayList<Globo>();  
+  cara=loadImage("fileDownloader.jpg");
 }
 
 void draw()
